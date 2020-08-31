@@ -1,0 +1,6 @@
+*.log
+*.pyc
+.0
+.tmp
+.db
+.xml

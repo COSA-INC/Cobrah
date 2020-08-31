@@ -1,6 +1,7 @@
 *.log
 *.pyc
-.0
-.tmp
-.db
-.xml
+*.0
+*.tmp
+*.db
+*.xml
+*.txt

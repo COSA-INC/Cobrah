@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    this is a status page
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- status container-->
+<div id="status_container">
+
+    <div id="status_bar">
+        <h3 id="status_tag">Active Status</h3>
+    </div>
+
+    <!--display statusses-->
+    {% for stat in status %}
+
+        <li>{{stat.status}}</li>
+
+    {% endfor %}
+
+</div>
+
+
+
+{% endblock content %}

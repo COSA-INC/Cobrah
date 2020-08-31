@@ -1,0 +1,7 @@
+/*--status bar --*/
+.status_bar 
+{
+    width: 100%;
+    height: 50px;
+    background-color: darkslategrey;
+}

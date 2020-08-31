@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     # login app
     'login',
     # messages app
-    'messages_',
+    'job_messages',
     # status app
     'status',
     # suggestions app

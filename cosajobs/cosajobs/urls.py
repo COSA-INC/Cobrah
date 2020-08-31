@@ -25,7 +25,7 @@ urlpatterns = [
     # login app urls
     path('login',include('login.urls')),
     # messages app
-    path('messages',include('messages_.urls')),
+    path('messages',include('job_messages.urls')),
     # status app
     path('status',include('status.urls')),
     # suggestions app

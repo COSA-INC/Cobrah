@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<!--navigation bar-->
+{% include 'navigation/navigation.html' %}
 
 <!--container for job details-->
 <div class="job_details">
@@ -55,6 +57,9 @@
                     <!--send message button-->
                     
                 </div>
+
+                <!--message the job owner-->
+                <button id="aboutjob_message">Message</button>
             </div>
 
         </div>

@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'navigation/navigation.css' %}">
+</head>
+<body>
+    <nav id="navigation_nav">
+        <ul id="navigation_ul">
+            <li class="link"><a href="{% url 'job:index' %}">Home</a></li>
+            <li class="link"><a href="{% url 'status:test' %}">Status</a></li>
+            <li class="link"><a href="{% url 'job_messages:test' %}">Messages</a></li>
+            <li class="link"><a href="{% url 'suggestions:test' %}">Suggestions</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
